@@ -1,0 +1,17 @@
+server:
+  port: ${PORT:8087}
+
+spring:
+  application:
+    name: catalog-service
+    
+  data:
+    mongodb:
+      database: finalBackEnd2
+      port: '27017'  
+
+queue:
+  serie:
+    name: serieQueue
+  movie:
+    name: movieQueue
